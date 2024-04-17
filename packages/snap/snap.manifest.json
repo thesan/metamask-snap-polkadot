@@ -1,18 +1,18 @@
 {
-  "version": "0.8.2",
-  "description": "The Polkadot snap.",
-  "proposedName": "Polkadot Wallet",
+  "version": "0.9.1",
+  "description": "Joystream snap.",
+  "proposedName": "Polkadot Wallet for Joystream",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chainsafe/metamask-snap-polkadot.git"
   },
   "source": {
-    "shasum": "tetP/U2cSxYl1CqUrLT+d1HD74GQyUy/MDUQ7h7qlEQ=",
+    "shasum": "Qdgagfr0rRX37SBXczDP5/hk4j2mnIKeGqzCRgy3UT8=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/logo.svg",
-        "packageName": "@chainsafe/polkadot-snap",
+        "packageName": "@thesan/polkadot-snap",
         "registry": "https://registry.npmjs.org/"
       }
     }

@@ -1,8 +1,13 @@
 {
-  "name": "@chainsafe/polkadot-snap",
-  "version": "0.8.2",
-  "description": "MetaMask snap for interacting with Polkadot dApps",
-  "main": "build/index.js",
+  "name": "@thesan/polkadot-snap",
+  "version": "0.9.1",
+  "description": "MetaMask snap for interacting with Joystream dApps",
+  "main": "./dist/bundle.js",
+  "files": [
+    "dist/",
+    "images/",
+    "snap.manifest.json"
+  ],
   "scripts": {
     "lint": "yarn run lint:types && yarn run lint:style",
     "lint:types": "tsc --noEmit --pretty",
@@ -22,9 +27,7 @@
     "watch": "concurrently  --raw --kill-others \"yarn run watch:tsc\" \"yarn run watch:snap\" \"yarn run serve\"",
     "watch:tsc": "yarn run build:tsc --watch",
     "watch:snap": "mm-snap watch --debug",
-    "prepublish": "yarn run build && mkdir ipfs && cp package.json ipfs/package.json",
-    "publish": "export BUNDLE_URL=`ipd --no-clipboard -O -p infura dist/bundle.js` && sed -i 's/http:\\/\\/localhost:8081\\/dist\\/bundle.js/https:\\/\\/ipfs.infura.io\\/ipfs\\/'\"$BUNDLE_URL\"'/g' ipfs/package.json && ipd --no-clipboard -O -p infura ipfs/package.json",
-    "postpublish": "rm -rf ipfs",
+    "prepublishOnly": "mm-snap manifest",
     "serve": "mm-snap serve",
     "test": "yarn run test:unit",
     "test:unit": "mocha --colors"

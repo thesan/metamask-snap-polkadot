@@ -1699,39 +1699,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@chainsafe/polkadot-snap@workspace:packages/snap":
-  version: 0.0.0-use.local
-  resolution: "@chainsafe/polkadot-snap@workspace:packages/snap"
-  dependencies:
-    "@chainsafe/metamask-polkadot-types": "workspace:^"
-    "@metamask/key-tree": ^9.0.0
-    "@metamask/snaps-cli": ^1.0.2
-    "@metamask/snaps-types": ^1.0.2
-    "@metamask/snaps-ui": ^1.0.2
-    "@polkadot/api": ^10.9.1
-    "@polkadot/keyring": ^12.3.2
-    "@polkadot/types": ^10.9.1
-    "@polkadot/util": ^12.3.2
-    "@types/chai": ^4.2.10
-    "@types/mocha": ^10.0.1
-    "@types/sinon": ^7.5.2
-    "@types/sinon-chai": ^3.2.3
-    "@typescript-eslint/eslint-plugin": ^5.27.1
-    "@typescript-eslint/parser": ^5.27.1
-    chai: ^4.2.0
-    concurrently: ^5.1.0
-    deepmerge: ^4.3.1
-    eslint: ^8.17.0
-    mocha: ^7.1.1
-    sinon: ^9.0.1
-    sinon-chai: ^3.5.0
-    strict-event-emitter-types: ^2.0.0
-    superstruct: ^1.0.3
-    ts-node: ^8.6.2
-    typescript: 4.7.3
-  languageName: unknown
-  linkType: soft
-
 "@csstools/normalize.css@npm:*":
   version: 12.0.0
   resolution: "@csstools/normalize.css@npm:12.0.0"
@@ -3830,6 +3797,39 @@ __metadata:
   checksum: ff57edaeab31322c80c3f01d55404b4cebb907b9ec7672b96a1a14d053f172046b01c5f27b45677927ebee8ed91bce695a7d09edec9a48875cfacabe39d0426a
   languageName: node
   linkType: hard
+
+"@thesan/polkadot-snap@workspace:packages/snap":
+  version: 0.0.0-use.local
+  resolution: "@thesan/polkadot-snap@workspace:packages/snap"
+  dependencies:
+    "@chainsafe/metamask-polkadot-types": "workspace:^"
+    "@metamask/key-tree": ^9.0.0
+    "@metamask/snaps-cli": ^1.0.2
+    "@metamask/snaps-types": ^1.0.2
+    "@metamask/snaps-ui": ^1.0.2
+    "@polkadot/api": ^10.9.1
+    "@polkadot/keyring": ^12.3.2
+    "@polkadot/types": ^10.9.1
+    "@polkadot/util": ^12.3.2
+    "@types/chai": ^4.2.10
+    "@types/mocha": ^10.0.1
+    "@types/sinon": ^7.5.2
+    "@types/sinon-chai": ^3.2.3
+    "@typescript-eslint/eslint-plugin": ^5.27.1
+    "@typescript-eslint/parser": ^5.27.1
+    chai: ^4.2.0
+    concurrently: ^5.1.0
+    deepmerge: ^4.3.1
+    eslint: ^8.17.0
+    mocha: ^7.1.1
+    sinon: ^9.0.1
+    sinon-chai: ^3.5.0
+    strict-event-emitter-types: ^2.0.0
+    superstruct: ^1.0.3
+    ts-node: ^8.6.2
+    typescript: 4.7.3
+  languageName: unknown
+  linkType: soft
 
 "@tootallnate/once@npm:1":
   version: 1.1.2
